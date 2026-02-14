@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Luxury Residential Villa</title>
+  <desc id="desc">Illustrated luxury villa with warm evening light</desc>
+  <defs>
+    <linearGradient id="sky-v" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f8ccf"/>
+      <stop offset="0.58" stop-color="#f1b58c"/>
+      <stop offset="1" stop-color="#ffd9b8"/>
+    </linearGradient>
+    <linearGradient id="grass-v" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#587f49"/>
+      <stop offset="1" stop-color="#34502e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#sky-v)"/>
+  <g fill="#ffffff" opacity="0.72">
+    <ellipse cx="220" cy="120" rx="110" ry="34"/>
+    <ellipse cx="320" cy="130" rx="80" ry="26"/>
+    <ellipse cx="860" cy="102" rx="120" ry="38"/>
+    <ellipse cx="975" cy="114" rx="86" ry="30"/>
+  </g>
+
+  <rect y="520" width="1200" height="240" fill="url(#grass-v)"/>
+  <rect y="500" width="1200" height="40" fill="#486f3d"/>
+
+  <g>
+    <rect x="280" y="250" width="640" height="280" rx="10" fill="#f7f3ea"/>
+    <rect x="360" y="188" width="480" height="96" rx="8" fill="#f7f3ea"/>
+    <polygon points="320,250 600,105 880,250" fill="#2f4058"/>
+    <polygon points="388,188 600,88 812,188" fill="#364962"/>
+
+    <rect x="546" y="358" width="108" height="172" rx="6" fill="#3b3228"/>
+
+    <g fill="#f5b25d">
+      <rect x="316" y="294" width="84" height="96" rx="4"/>
+      <rect x="424" y="294" width="84" height="96" rx="4"/>
+      <rect x="692" y="294" width="84" height="96" rx="4"/>
+      <rect x="800" y="294" width="84" height="96" rx="4"/>
+      <rect x="420" y="214" width="74" height="66" rx="4"/>
+      <rect x="520" y="214" width="74" height="66" rx="4"/>
+      <rect x="620" y="214" width="74" height="66" rx="4"/>
+      <rect x="720" y="214" width="74" height="66" rx="4"/>
+      <rect x="316" y="408" width="84" height="86" rx="4"/>
+      <rect x="800" y="408" width="84" height="86" rx="4"/>
+    </g>
+  </g>
+
+  <rect x="220" y="530" width="760" height="52" rx="8" fill="#303948" opacity="0.35"/>
+  <ellipse cx="280" cy="565" rx="96" ry="48" fill="#2d472f"/>
+  <ellipse cx="930" cy="560" rx="105" ry="52" fill="#2d472f"/>
+</svg>

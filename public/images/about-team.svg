@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Construction Team</title>
+  <desc id="desc">Illustrated construction engineers holding blueprint on site</desc>
+  <defs>
+    <linearGradient id="sky-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84b5ec"/>
+      <stop offset="1" stop-color="#d9ebff"/>
+    </linearGradient>
+    <linearGradient id="vest" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd54c"/>
+      <stop offset="1" stop-color="#f09a1e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky-a)"/>
+  <rect y="640" width="1200" height="260" fill="#c8b79c"/>
+  <rect y="606" width="1200" height="52" fill="#6f9854"/>
+
+  <g fill="#7a92aa" opacity="0.75">
+    <rect x="80" y="350" width="120" height="256"/>
+    <rect x="226" y="310" width="96" height="296"/>
+    <rect x="918" y="340" width="110" height="266"/>
+    <rect x="1048" y="302" width="90" height="304"/>
+  </g>
+
+  <g>
+    <rect x="840" y="210" width="22" height="396" fill="#d0841f"/>
+    <rect x="640" y="242" width="280" height="20" fill="#d0841f"/>
+    <rect x="704" y="258" width="18" height="120" fill="#d0841f"/>
+    <rect x="710" y="372" width="2" height="120" fill="#2c3a4b"/>
+    <rect x="694" y="484" width="34" height="32" rx="4" fill="#f2b664"/>
+  </g>
+
+  <g transform="translate(300,260)">
+    <g transform="translate(0,40)">
+      <ellipse cx="140" cy="120" rx="58" ry="68" fill="#e7b489"/>
+      <rect x="88" y="180" width="104" height="162" rx="18" fill="#f3704f"/>
+      <rect x="102" y="182" width="76" height="154" rx="12" fill="url(#vest)"/>
+      <rect x="76" y="204" width="34" height="148" rx="12" fill="#3f4e61"/>
+      <rect x="170" y="204" width="34" height="148" rx="12" fill="#3f4e61"/>
+      <rect x="92" y="300" width="96" height="52" rx="10" fill="#4f5d6e"/>
+      <ellipse cx="140" cy="88" rx="70" ry="34" fill="#f3c644"/>
+    </g>
+
+    <g transform="translate(220,0)">
+      <ellipse cx="170" cy="160" rx="64" ry="76" fill="#dfab82"/>
+      <rect x="108" y="228" width="124" height="188" rx="20" fill="#6fba43"/>
+      <rect x="128" y="228" width="84" height="178" rx="12" fill="#b8f07a"/>
+      <rect x="84" y="258" width="42" height="170" rx="14" fill="#384658"/>
+      <rect x="214" y="258" width="42" height="170" rx="14" fill="#384658"/>
+      <rect x="154" y="128" width="58" height="18" rx="9" fill="#e9f4ff"/>
+      <ellipse cx="170" cy="112" rx="76" ry="34" fill="#ffffff"/>
+    </g>
+
+    <g transform="translate(60,340)">
+      <polygon points="0,60 380,0 460,140 80,200" fill="#f5f8ff"/>
+      <polyline points="24,74 372,20" stroke="#8aa2bd" stroke-width="4" fill="none"/>
+      <polyline points="50,108 398,56" stroke="#8aa2bd" stroke-width="4" fill="none"/>
+      <polyline points="74,142 420,88" stroke="#8aa2bd" stroke-width="4" fill="none"/>
+    </g>
+  </g>
+
+  <g fill="#ffffff" opacity="0.7">
+    <ellipse cx="146" cy="110" rx="86" ry="28"/>
+    <ellipse cx="248" cy="118" rx="70" ry="24"/>
+    <ellipse cx="930" cy="136" rx="92" ry="30"/>
+  </g>
+</svg>

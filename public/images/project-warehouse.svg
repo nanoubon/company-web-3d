@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial Warehouse</title>
+  <desc id="desc">Illustrated industrial warehouse with loading docks</desc>
+  <defs>
+    <linearGradient id="sky-w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#98c4ec"/>
+      <stop offset="1" stop-color="#e2edf8"/>
+    </linearGradient>
+    <linearGradient id="yard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cab99d"/>
+      <stop offset="1" stop-color="#a8967a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#sky-w)"/>
+  <g fill="#fff" opacity="0.74">
+    <ellipse cx="170" cy="110" rx="82" ry="30"/>
+    <ellipse cx="250" cy="120" rx="72" ry="24"/>
+    <ellipse cx="900" cy="124" rx="94" ry="32"/>
+    <ellipse cx="995" cy="133" rx="66" ry="22"/>
+  </g>
+
+  <rect y="520" width="1200" height="240" fill="url(#yard)"/>
+
+  <g>
+    <polygon points="180,285 680,205 1090,285 590,355" fill="#b7c0ca"/>
+    <rect x="200" y="286" width="880" height="238" rx="8" fill="#d8dde3"/>
+    <rect x="220" y="316" width="840" height="48" fill="#8da0b3"/>
+
+    <g fill="#7d8793">
+      <rect x="260" y="380" width="160" height="130" rx="6"/>
+      <rect x="456" y="380" width="160" height="130" rx="6"/>
+      <rect x="652" y="380" width="160" height="130" rx="6"/>
+      <rect x="848" y="380" width="160" height="130" rx="6"/>
+    </g>
+
+    <g fill="#344252">
+      <rect x="292" y="406" width="96" height="84" rx="4"/>
+      <rect x="488" y="406" width="96" height="84" rx="4"/>
+      <rect x="684" y="406" width="96" height="84" rx="4"/>
+      <rect x="880" y="406" width="96" height="84" rx="4"/>
+    </g>
+
+    <rect x="920" y="256" width="90" height="30" rx="4" fill="#f8a65d"/>
+    <rect x="980" y="498" width="110" height="26" rx="4" fill="#f8a65d"/>
+  </g>
+
+  <rect x="140" y="532" width="980" height="36" rx="6" fill="#9b8b70"/>
+  <ellipse cx="420" cy="560" rx="240" ry="26" fill="#6f6250" opacity="0.32"/>
+</svg>

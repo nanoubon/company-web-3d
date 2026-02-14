@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", "Noto Sans", "Helvetica Neue", sans-serif;
+  background: #eaedf4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Trebuchet MS", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.section-anchor {
+  scroll-margin-top: 100px;
+}
+
+.hero-grid {
+  background-size: 36px 36px;
+}
